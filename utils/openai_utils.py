@@ -35,6 +35,7 @@ def get_analysis_prompt(is_pdf: bool = False) -> str:
       'Primary Endpoint Met': Summarize from results whether or not the primary endpoint(s) was met: Yes or No or NA if results unavailable
       'Statistical Significance': alpha-level and p-value for primary endpoint(s), if available
       'Clinical Significance': Effect size, and Number needed to treat (NNT)/Number needed to harm (NNH), if available
+      'Conclusion': Brief summary of the conclusions of the paper
       'Main Author': Last name, First initials
       'Other Authors': Last name, First initials; Last name First initials; ...
       'Journal Name': Full journal name
