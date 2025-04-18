@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from typing import Dict, List, Any, Optional
 import time
+import io
 
 def initialize_session_state():
     """Initialize all session state variables"""
